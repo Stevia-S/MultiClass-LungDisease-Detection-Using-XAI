@@ -1,4 +1,4 @@
-🫁 Multi-Class Lung Disease Detection using CNN + Explainable AI (XAI)
+🫁 MULTI-CLASS LUNG DISEASE DETECTION USING CNN + EXPLAINABLE AI(XAI)
 
 An explainable deep learning system that detects lung diseases from CT scan images using a CNN model and provides visual explanations using Grad-CAM.
 
