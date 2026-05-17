@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.h5
+*.dll
+*.pkl
+*.zip
+.ipynb_checkpoints/
