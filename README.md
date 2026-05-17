@@ -1,23 +1,44 @@
 
-# 🫁 Explainable Deep Learning-Based Multi-Class Lung Disease Detection System
+# 🫁 Explainable Deep Learning-Based Lung Disease Detection using ResNet50–VGG16 Fusion
 
-🧠 Python • TensorFlow • CNN • Grad-CAM • Medical AI
+🧠 Python • TensorFlow • Transfer Learning • ResNet50-VGG16 Fusion • Grad-CAM • Medical AI
 
 An end-to-end deep learning system that detects lung diseases from CT scan images using a CNN-based architecture and provides **explainable AI (XAI) visualizations** to improve interpretability in medical diagnosis.
 
 ---
 
-# 📊 Project Overview
+## 📊 Project Overview
 
-Medical image diagnosis requires high accuracy and interpretability. Traditional deep learning models perform well but lack transparency.
+Medical image diagnosis requires high accuracy and interpretability. Traditional deep learning models often achieve strong performance but lack transparency in decision-making.
 
-This project builds an **AI-powered lung disease detection system** that:
+This project presents an **Explainable Deep Learning-Based Lung Disease Detection System** using a **ResNet50–VGG16 Fusion Architecture** with **Transfer Learning** and **Grad-CAM Explainability**.
 
-* Classifies CT scan images
-* Detects multiple lung conditions
-* Explains predictions using Grad-CAM heatmaps
+The system is designed to:
 
-It is designed to simulate **real-world AI-assisted radiology systems**.
+- Classify CT scan images
+- Detect multiple lung diseases
+- Visualize affected regions using Grad-CAM heatmaps
+- Improve interpretability in AI-assisted medical diagnosis
+
+It is designed to simulate real-world **AI-assisted radiology systems** for medical image analysis.
+
+---
+
+### 🔍 Key Features
+
+- ResNet50–VGG16 Fusion Model
+- Transfer Learning-Based Feature Extraction
+- Grad-CAM Explainable AI Visualization
+- Streamlit-Based Web Application
+- Multi-Class CT Scan Classification
+
+---
+
+### 🩺 Diseases Detected
+
+- COVID
+- Normal
+- Pneumonia
 
 ---
 
@@ -49,7 +70,7 @@ CT Scan Image Input
          │
          ▼
 ┌──────────────────────┐
-│   CNN Model          │  ← Feature extraction
+│   ResNet50 + VGG16   │  ← Feature extraction
 └────────┬─────────────┘
          │
          ▼
@@ -68,7 +89,7 @@ CT Scan Image Input
 
 ---
 
-# ⚙️ Features
+# 🧩 System Components
 
 ## 🔬 Image Processing
 
